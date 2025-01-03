@@ -2,41 +2,52 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>龙图阁论坛 - 首页</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>龙图阁</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://static.codemao.cn/coco/player/unstable/H1KS9WfIJe.image/jpeg?hash=Fnwk7Ac32MvUlMoJ5CUtFLEom4_d'); /* 替换为图一的实际URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>龙图阁论坛</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="threads.html">帖子列表</a></li>
-                <li id="newPostLink"><a href="newpost.html">发布新帖子</a></li>
-                <li id="loginLink"><a href="login.html">登录</a></li>
-                <li id="registerLink"><a href="register.html">注册</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="welcome">
-            <h2>欢迎来到龙图阁论坛</h2>
-            <p>在这里，你可以分享你的想法，参与讨论。</p>
-        </section>
-
-        <section class="latest-threads">
-            <h2>最新帖子</h2>
-            <ul id="latestThreadsList">
-                <!-- 动态加载最新帖子 -->
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 龙图阁论坛</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <div class="content">
+        <h1>欢迎来到迷小龙丶H的龙图阁</h1>
+        <p>本站目前正处于测试阶段，预计寒假正式投入使用，目前迷小龙正在努力开发，若有好心人想帮忙写html，请加Q群789670923</p>
+        <a href="https://qm.qq.com/q/rL5DV0Lwj0" class="button">加Q群</a> <!-- 替换为实际的Q群链接 -->
+    </div>
 </body>
 </html>
