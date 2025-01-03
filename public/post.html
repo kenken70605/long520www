@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>龙图阁论坛 - 首页</title>
+    <title>龙图阁论坛 - 帖子详情</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,16 +20,20 @@
     </header>
 
     <main>
-        <section class="welcome">
-            <h2>欢迎来到龙图阁论坛</h2>
-            <p>在这里，你可以分享你的想法，参与讨论。</p>
-        </section>
+        <article id="postContent">
+            <!-- 动态加载帖子内容 -->
+        </article>
 
-        <section class="latest-threads">
-            <h2>最新帖子</h2>
-            <ul id="latestThreadsList">
-                <!-- 动态加载最新帖子 -->
+        <section class="comments">
+            <h3>评论</h3>
+            <ul id="commentsList">
+                <!-- 动态加载评论 -->
             </ul>
+
+            <form id="commentForm">
+                <textarea id="commentText" placeholder="留下你的评论"></textarea>
+                <button type="submit">提交评论</button>
+            </form>
         </section>
     </main>
 
